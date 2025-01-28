@@ -11,5 +11,8 @@ public class Main {
         for(int i=1; i<=n; i++){
             System.out.println(" ".repeat(n-i)+"*".repeat(i+(i-1))+" ".repeat(n-i));
         }
+        for(int i=n-1; i>=1; i--){
+            System.out.println(" ".repeat(n-i)+"*".repeat(i+(i-1))+" ".repeat(n-i));
+        }
     }
 }
